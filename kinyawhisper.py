@@ -42,8 +42,8 @@ def match_answer(text):
         "urimo gukora iki": "Ndimo kugufasha!",
         "uri nde": "Ndi robot yakozwe na Joella.",
         "wakora iki": "Nshobora kukumva no kugusubiza.",
-        "umurwa mukuru w'u Rwanda ni uwuhe?": "Umurwa mukuru w'u Rwanda ni Kigali",
-        "perezida w'u Rwanda yitwa nde?": "Perezida w'u Rwanda yitwa Kagame Paul",
+        "umurwa mukuru w u rwanda ni uwuhe?": "Umurwa mukuru w'u Rwanda ni Kigali",
+        "perezida w u rwanda yitwa nde?": "Perezida w'u Rwanda yitwa Kagame Paul",
         "uwagukoze yiga he":"Uwankoze yiga Rwanda Coding Academy"
     }
     return qa_pairs.get(text, "Mbabarira, sinabyumvise neza.")
